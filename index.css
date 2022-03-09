@@ -1,0 +1,10 @@
+.inputOne,
+.inputTwo,
+.inputthree,
+.inputfour,
+.inputfive {
+  margin: 10px;
+}
+.row {
+  flex-direction: column;
+}
