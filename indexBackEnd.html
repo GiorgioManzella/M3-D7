@@ -66,28 +66,31 @@
       <div class="row">
         <div>
           <p>Name</p>
-          <input type="text" id="name" class="inputOne" />
+          <input type="text" required id="name" class="inputOne" />
         </div>
         <div>
           <p>Description</p>
-          <input type="text" id="description" class="inputTwo" />
+          <input type="text" required id="description" class="inputTwo" />
         </div>
         <div>
           <p>brand</p>
-          <input type="url" id="brand" class="inputthree" />
+          <input type="text" required id="brand" class="inputthree" />
         </div>
         <div>
           <p>ImageURL</p>
-          <input type="text" id="imageURL" class="inputfour" />
+          <input type="link" required id="imageURL" class="inputfour" />
         </div>
         <div>
           <p>price</p>
-          <input type="text" id="price" class="inputfive" />
+          <input type="text" required id="price" class="inputfive" />
         </div>
       </div>
       <div>
-        <button class="submitButton">Submit</button>
+        <button onclick="handleChange(event)" class="submitButton">
+          Submit
+        </button>
       </div>
     </div>
   </body>
 </html>
+<script src="/indexBack.js"></script>
